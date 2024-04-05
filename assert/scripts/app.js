@@ -1,6 +1,6 @@
 
 function decodeHandshake() {
-    const inputNumber = parseInt(document.getElementById('numberInput').value)
+    const inputNumber = parseInt(document.getElementById('number-input').value)
     const binaryString = (inputNumber >>> 0).toString(2)
 
     const actions = {
